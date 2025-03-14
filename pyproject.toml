@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "langchain-codebook"
+name = "langchain-Codebook"
 version = "0.1.0"
 description = "Everything you need to know to get started with LangChain"
 

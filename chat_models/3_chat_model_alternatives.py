@@ -23,17 +23,6 @@ result = model.invoke(messages)
 print(f"Answer from OpenAI: {result.content}")
 
 
-# ---- Anthropic Chat Model Example ----
-
-# Create a Anthropic model
-
-model = ChatAnthropic(model="claude-3-opus-20240229")
-
-result = model.invoke(messages)
-print(f"Answer from Anthropic: {result.content}")
-
-
-#
 model = ChatGoogleGenerativeAI(model="gemini-1.5-flash")
 
 result = model.invoke(messages)
